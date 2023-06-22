@@ -4,9 +4,13 @@ exports.apiRequired = 8.22
 exports.frontend_js = "main.js"
 exports.repo = "rejetto/show-any"
 
+exports.configDialog = {
+    sx: { maxWidth: '15em' },
+}
+
 exports.config = {
     extensions: { 
-        label: "File extensions", 
+        label: false, 
         type: 'array',
         frontend: true,
         defaultValue: [{ ext: 'txt' }, { ext: 'pdf' }],
