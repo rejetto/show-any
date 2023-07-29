@@ -1,4 +1,4 @@
-{
+'use strict';{
     const exts = HFS.getPluginConfig().extensions.map(x => x.ext)
 
     HFS.onEvent('fileShow', ({ entry: { ext } }) => 
